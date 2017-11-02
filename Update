@@ -1,0 +1,8 @@
+float km_to_mil(void)
+{
+    //Bethany Roth...Meh...KM
+    float km = get_float("NUmber of Kilometers: ");
+    float km = mil / 1.609344;
+    printf("\nThe Number of Miles is %.2f\n", km);
+    return km;
+}
